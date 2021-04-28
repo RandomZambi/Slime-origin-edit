@@ -1,0 +1,30 @@
+{
+  "mappings": {
+    "dev/jacksibley/slimeorigin/mixin/MixinLivingEntity": {
+      "createLivingAttributes": "Lnet/minecraft/class_1309;method_26827()Lnet/minecraft/class_5132$class_5133;",
+      "tryUseTotem": "Lnet/minecraft/class_1309;method_6095(Lnet/minecraft/class_1282;)Z"
+    },
+    "dev/jacksibley/slimeorigin/mixin/MixinBlock": {
+      "onEntityLand": "Lnet/minecraft/class_2248;method_9502(Lnet/minecraft/class_1922;Lnet/minecraft/class_1297;)V"
+    },
+    "dev/jacksibley/slimeorigin/mixin/MixinSlimeBlock": {
+      "bounce": "Lnet/minecraft/class_2490;method_21847(Lnet/minecraft/class_1297;)V",
+      "Lnet/minecraft/entity/Entity;setVelocity(DDD)V": "Lnet/minecraft/class_1297;method_18800(DDD)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/jacksibley/slimeorigin/mixin/MixinLivingEntity": {
+        "createLivingAttributes": "Lnet/minecraft/class_1309;method_26827()Lnet/minecraft/class_5132$class_5133;",
+        "tryUseTotem": "Lnet/minecraft/class_1309;method_6095(Lnet/minecraft/class_1282;)Z"
+      },
+      "dev/jacksibley/slimeorigin/mixin/MixinBlock": {
+        "onEntityLand": "Lnet/minecraft/class_2248;method_9502(Lnet/minecraft/class_1922;Lnet/minecraft/class_1297;)V"
+      },
+      "dev/jacksibley/slimeorigin/mixin/MixinSlimeBlock": {
+        "bounce": "Lnet/minecraft/class_2490;method_21847(Lnet/minecraft/class_1297;)V",
+        "Lnet/minecraft/entity/Entity;setVelocity(DDD)V": "Lnet/minecraft/class_1297;method_18800(DDD)V"
+      }
+    }
+  }
+}

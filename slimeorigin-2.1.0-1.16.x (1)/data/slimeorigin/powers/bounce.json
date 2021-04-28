@@ -1,0 +1,13 @@
+{
+    "type":"origins:active_self" ,
+    "entity_action": {
+        "type":"origins:add_velocity" ,
+        "y": 1
+    } ,
+    "hud_render": {
+        "should_render":true
+    },
+    "cooldown": 30 ,
+    "name":"Bounce" ,
+    "description":"You can jump higher and even double jump!"
+}
